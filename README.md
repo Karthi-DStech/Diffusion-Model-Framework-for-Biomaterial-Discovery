@@ -23,7 +23,7 @@ Contains scripts related to dataset handling and preprocessing:
 - **`mnist.py`**: Contains utilities specific to the MNIST dataset.
 - **`topographies.py`**: Handles biomaterial topographic datasets.
 
-### 2. `model/`
+#### 2. `model/`
 Implements core architectures and modules for generative models:
 - **`ddpm.py`**: Defines the implementation of the Denoising Diffusion Probabilistic Model (DDPM).
 - **`unet.py`**: Implements the U-Net architecture used in diffusion models.
@@ -36,15 +36,15 @@ Implements core architectures and modules for generative models:
 - **`networks.py`**: Base class for all the networks created. 
 - **`models.py`**: Base class for the models and acts as an entry point for accessing various model instances. 
 
-### 3. `option/`
+#### 3. `option/`
 Handles command-line arguments and configurable options for training and experiments:
 - **`base_options.py`**: Defines shared options for general configurations.
 - **`train_options.py`**: Extends `base_options.py` with training-specific parameters.
 
-### 4. `utils/`
+#### 4. `utils/`
 Provides helper functions and utilities for the project.
 
-### 5. Other Files
+#### 5. Other Files
 - **`train.py`**: Main script for training the models.
 - **`call_methods.py`**: Contains method calls dynamically for initiating specific processes or experiments.
 - **`.gitignore`**: Specifies files and directories to be ignored by Git.
