@@ -64,3 +64,8 @@ Install the necessary packages using pip:
 
 
 ### Dataset
+
+The training scripts are set up to use the Biomaterial dataset with 2176 Samples, which are loaded from the local machine. If you wish to use a different dataset, you'll need to add the dataset in the repository and create scripts such as mnist.py or topography.py using dataset class as a base class. 
+
+### Models Saving
+By default, the trained models are saved to the disk every 4000 epoch. You can change this frequency in the training scripts and the saving frequency will depend upon the flags (explore options).
