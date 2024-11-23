@@ -53,13 +53,14 @@ Provides helper functions and utilities for the project.
 ### Requirements
 
 To run the code, you need the following:
-
+``` 
 - Python 3.8 or above
 - PyTorch 1.7 or above
 - torchvision
 - tqdm
 - matplotlib
 - Tensorboard 2.7.0
+```
 
 Install the necessary packages using pip:
 
