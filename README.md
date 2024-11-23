@@ -9,7 +9,8 @@ This project contains the code to train a diffusion model for Biomaterial Discov
 
 ### Generated One-by-One Biomaterial Designs after 40_000 Epochs
 
-![image](https://github.com/Karthi-DStech/Denoising-Diffusion-Probablistic-Models-for-Biomaterial-Discovery/assets/126179797/7515456e-09cf-48ac-9c30-882b2dfc95a8)
+<img width="627" alt="Screenshot 2024-11-23 at 04 55 23" src="https://github.com/user-attachments/assets/4a389956-34b4-4960-871d-f6f19d654794">
+
 
 
 
