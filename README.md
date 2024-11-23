@@ -63,8 +63,9 @@ To run the code, you need the following:
 ```
 
 Install the necessary packages using pip:
-
-
+```
+pip install -r requirements.txt
+``` 
 ### Dataset
 
 The training scripts are set up to use the Biomaterial dataset with 2176 Samples, which are loaded from the local machine. If you wish to use a different dataset, you'll need to add the dataset in the repository and create scripts such as mnist.py or topography.py using dataset class as a base class. 
